@@ -1,5 +1,5 @@
 (
-  ;; This is a size-optimized version of curry.clib.
+  ;; This is a size-optimized version of curry.clib [https://github.com/Chia-Network/chia_puzzles/blob/main/puzzles/curry.clib].
   ;; The rationale is that the cost of storing 1 byte on-chain is 12000. 
   ;; Four constants of length 32 bytes are replaced with in-place computations of them.
   ;; The cost saving in most use cases should be significant. 
